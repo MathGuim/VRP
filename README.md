@@ -4,6 +4,8 @@ This project consists of a FastAPI backend and vanillaJS frontend to solve the V
 
 ![image](images/map.PNG)
 
+## Instalation
+
 In order to start the FastAPI application first install the required python dependencies:
 
 ```bash
