@@ -1,0 +1,4 @@
+fastapi==0.115.4
+fastapi-cli==0.0.5
+ortools==9.11.4210
+scipy==1.14.1
