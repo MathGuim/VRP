@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+}
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+
+#run {
+    width: 150px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button:last-of-type {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+#n-vehicles {
+    width: 75%;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 20px;
+}
